@@ -1,0 +1,95 @@
+@import url('https://fonts.google.com/specimen/Inter:wght@400;700&display=swap');
+@import url('https://fonts.google.com/specimen/Lexend+Deca&display=swap');
+:root {
+    --color-main-background: hsl(233, 47%, 7%);
+    --color-card-background: hsl(244, 38%, 16%);
+    --color-accent: hsl(277, 64%, 61%);
+    --color-white-opaque: hsl(0, 0%, 100%);
+    --color-white-transparent75: hsla(0, 0%, 100%, 0.75);
+    --color-white-transparent60: hsla(0, 0%, 100%, 0.6);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.attribution {
+    margin-top: 3rem;
+    font-size: 11px;
+    text-align: center;
+    color: var(--color-white-transparent60);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    font-family: 'Inter';
+    background-color: var(--color-main-background);
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+}
+
+.card {
+    background-color: var(--color-card-background);
+    border-radius: 8px 8px 8px 8px;
+    width: fit-content;
+    margin: auto;
+    padding-left: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 150px;
+}
+
+.big_text {
+    color: var(--color-white-opaque);
+    text-align: left;
+    padding-top: 50px;
+}
+
+.insights {
+    color: var(--color-accent);
+}
+
+.small_text {
+    color: var(--color-white-transparent60);
+    text-align: left;
+    padding-top: 20px;
+}
+
+.stats {
+    color: var(--color-white-opaque);
+    text-align: left;
+    padding-top: 65px;
+    font-weight: 700;
+}
+
+.stats_text {
+    color: var(--color-white-transparent60);
+    text-align: left;
+    font-size: small;
+}
+
+.grid_layout {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 500px;
+}
+
+.image {
+    border-radius: 0 8px 8px 0;
+    height: 400px;
+    opacity: 0.5;
+    background-color: #ff1bff;
+}
+
+@media only screen and (max-width: 700px) {}
