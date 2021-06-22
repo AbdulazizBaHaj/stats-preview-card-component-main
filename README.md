@@ -27,6 +27,9 @@ Users should be able to:
 ### Screenshot
 
 ![](screenshot.jpg)
+<img src="screenshot.jpg"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
 
 ### Links
 
