@@ -1,5 +1,4 @@
 @import url('https://fonts.google.com/specimen/Inter:wght@400;700&display=swap');
-@import url('https://fonts.google.com/specimen/Lexend+Deca&display=swap');
 :root {
     --color-main-background: hsl(233, 47%, 7%);
     --color-card-background: hsl(244, 38%, 16%);
@@ -9,51 +8,56 @@
     --color-white-transparent60: hsla(0, 0%, 100%, 0.6);
 }
 
-*, *::before, *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-img {
-    max-width: 100%;
-}
-
-.attribution {
-    margin-top: 3rem;
-    font-size: 11px;
-    text-align: center;
-    color: var(--color-white-transparent60);
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
-}
-
 body {
     font-family: 'Inter';
     background-color: var(--color-main-background);
+    color: var(--color-white-transparent75);
 }
 
-.container {
-    background-color: hsl(244, 38%, 16%);
+.body-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 .card {
     background-color: var(--color-card-background);
     border-radius: 8px 8px 8px 8px;
-    width: fit-content;
+    width: 1000px;
     margin: auto;
-    padding-left: 50px;
+    padding-left: 80px;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 500px 500px;
     margin-top: 150px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 0 8px 8px 0;
+    opacity: 0.32;
+    width: max-content;
+    height: max-content;
+}
+
+.image {
+    background-color: var(--color-accent);
+    position: relative;
+    left: 500px;
+    border-radius: 0 8px 8px 0;
+    width: max-content;
+    height: fit-content;
+}
+
+.container {
+    background-color: hsl(244, 38%, 16%);
+    position: relative;
+    right: 500px;
+    width: 500px;
 }
 
 .big_text {
     color: var(--color-white-opaque);
     text-align: left;
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .insights {
@@ -66,10 +70,10 @@ body {
     padding-top: 20px;
 }
 
-.stats {
+.stats h2 {
     color: var(--color-white-opaque);
     text-align: left;
-    padding-top: 65px;
+    padding-top: 20px;
     font-weight: 700;
 }
 
@@ -77,19 +81,22 @@ body {
     color: var(--color-white-transparent60);
     text-align: left;
     font-size: small;
+    margin-top: -20px;
 }
 
 .grid_layout {
     display: grid;
     grid-template-columns: auto auto auto;
-    width: 500px;
+    width: 450px;
 }
 
-.image {
-    border-radius: 0 8px 8px 0;
-    height: 400px;
-    opacity: 0.5;
-    background-color: #ff1bff;
+.attribution {
+    margin-top: 3rem;
+    font-size: 11px;
+    text-align: center;
+    color: var(--color-white-transparent60);
 }
 
-@media only screen and (max-width: 700px) {}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
