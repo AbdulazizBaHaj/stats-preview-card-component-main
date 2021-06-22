@@ -113,7 +113,7 @@ img {
     .body-grid {
         display: grid;
         grid-template-columns: auto;
-        margin: 0;
+        /* margin: 0; */
     }
     .card {
         background-color: var(--color-card-background);
@@ -146,12 +146,15 @@ img {
         right: 0;
         width: 350px;
         border-radius: 0 0 8px 8px;
+        display: grid;
+        margin: auto;
     }
     .big_text {
         color: var(--color-white-opaque);
         text-align: left;
         padding-top: 60px;
         text-align: center;
+        margin: auto;
     }
     .insights {
         color: var(--color-accent);
