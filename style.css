@@ -113,15 +113,16 @@ img {
     .body-grid {
         display: grid;
         grid-template-columns: auto;
+        margin: 0;
     }
     .card {
         background-color: var(--color-card-background);
         border-radius: 8px 8px 8px 8px;
         width: 0;
-        margin: auto;
+        margin: 0;
         padding-left: 0px;
         display: grid;
-        grid-template-columns: 300px;
+        grid-template-columns: auto;
         margin-top: 150px;
     }
     img {
@@ -144,6 +145,7 @@ img {
         position: relative;
         right: 0;
         width: 350px;
+        border-radius: 0 0 8px 8px;
     }
     .big_text {
         color: var(--color-white-opaque);
