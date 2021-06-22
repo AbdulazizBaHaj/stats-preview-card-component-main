@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshot.jpg)
-<img src="screenshot.jpg"
+![screenshot.JPG](screenshot.JPG)
+<img src="screenshot.JPG"
      alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;" />
+     style="width: 500px" />
 
 ### Links
 
