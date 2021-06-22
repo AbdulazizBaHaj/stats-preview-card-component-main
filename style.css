@@ -100,3 +100,92 @@ img {
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+
+.hidden_mobile {
+    display: none;
+}
+
+.hidden_desktop {
+    display: block;
+}
+
+@media screen and (max-width: 700px) {
+    .body-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .card {
+        background-color: var(--color-card-background);
+        border-radius: 8px 8px 8px 8px;
+        width: 0;
+        margin: auto;
+        padding-left: 0px;
+        display: grid;
+        grid-template-columns: 300px;
+        margin-top: 150px;
+    }
+    img {
+        max-width: 100%;
+        border-radius: 8px 8px 0 0;
+        opacity: 0.32;
+        width: max-content;
+        height: max-content;
+    }
+    .image {
+        background-color: var(--color-accent);
+        position: relative;
+        left: 0;
+        border-radius: 8px 8px 0 0;
+        width: max-content;
+        height: fit-content;
+    }
+    .container {
+        background-color: hsl(244, 38%, 16%);
+        position: relative;
+        right: 0;
+        width: 350px;
+    }
+    .big_text {
+        color: var(--color-white-opaque);
+        text-align: left;
+        padding-top: 60px;
+        text-align: center;
+    }
+    .insights {
+        color: var(--color-accent);
+    }
+    .small_text {
+        color: var(--color-white-transparent60);
+        text-align: left;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .stats h2 {
+        color: var(--color-white-opaque);
+        text-align: left;
+        /* padding-top: 20px; */
+        font-weight: 700;
+        text-align: center;
+    }
+    .stats_text {
+        color: var(--color-white-transparent60);
+        text-align: left;
+        font-size: small;
+        margin-top: -20px;
+        text-align: center;
+    }
+    .grid_layout {
+        display: grid;
+        grid-template-columns: auto;
+        width: 350px;
+        margin-bottom: 50px;
+    }
+    .hidden_desktop {
+        display: none;
+    }
+    .hidden_mobile{
+        display:block;
+        width: 350px;
+        height: 300px;
+    }
+}
