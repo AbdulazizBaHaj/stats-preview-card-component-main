@@ -4,17 +4,17 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- [Frontend Mentor - Stats preview card component solution](#frontend-mentor---stats-preview-card-component-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+    - [Screenshot](#screenshot)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
 
 ## Overview
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I have learned a lot from this project, after this project i have developed a strong understanding of the basics.
 
 To see how you can add code snippets, see below:
 
@@ -53,23 +53,28 @@ To see how you can add code snippets, see below:
 <h1>Some HTML code I'm proud of</h1>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+@media screen and (max-width: 700px) {
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+```css
+:root {
+    --color-main-background: hsl(233, 47%, 7%);
+    --color-card-background: hsl(244, 38%, 16%);
+    --color-accent: hsl(277, 64%, 61%);
+    --color-white-opaque: hsl(0, 0%, 100%);
+    --color-white-transparent75: hsla(0, 0%, 100%, 0.75);
+    --color-white-transparent60: hsla(0, 0%, 100%, 0.6);
 }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```css
+.image {
+order: 2;
+}
+```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I want to continue on completing new challenges, it will help me to fully understand HTML, CSS, and JavaScript. 
 
 ## Author
 
